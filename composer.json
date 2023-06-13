@@ -1,0 +1,29 @@
+{
+    "name": "onesms/service",
+    "description": "Basic Service Provider for onesms application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Basttyy",
+            "email": "hello@onesms.com.ng"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "laravel/framework": "^9.0",
+        "guzzlehttp/guzzle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onesms\\Service\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Onesms\\Service\\OnesmsServiceProvider"
+            ]
+        }
+    }
+}
