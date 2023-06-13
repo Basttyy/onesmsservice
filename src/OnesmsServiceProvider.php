@@ -24,7 +24,7 @@ class OnesmsServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Mint\Service\Controllers\InstallController');
-        $this->app->make('Mint\Service\Controllers\UpdateController');
+        $this->app->make('Onesms\Service\Controllers\InstallController');
+        $this->app->make('Onesms\Service\Controllers\UpdateController');
     }
 }

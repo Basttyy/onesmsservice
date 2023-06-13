@@ -10,9 +10,9 @@ class InitRepository
     public function init()
     {
         config(['app.item' => '858790']);
-        config(['app.verifier' => 'https://auth.onesms.com']);
-        config(['app.push' => 'https://pusher.onesms.com']);
-        config(['app.helpdoc' => 'https://helpdoc.onesms.com']);
+        config(['app.verifier' => 'https://auth.onesms.com.ng']);
+        config(['app.push' => 'https://pusher.onesms.com.ng']);
+        config(['app.helpdoc' => 'https://helpdoc.onesms.com.ng']);
     }
 
     public function check()
