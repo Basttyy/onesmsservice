@@ -1,11 +1,11 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Onesms\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\SupportRequest;
-use Mint\Service\Repositories\InitRepository;
-use Mint\Service\Repositories\SupportRepository;
+use Onesms\Service\Requests\SupportRequest;
+use Onesms\Service\Repositories\InitRepository;
+use Onesms\Service\Repositories\SupportRepository;
 
 class SupportController extends Controller
 {

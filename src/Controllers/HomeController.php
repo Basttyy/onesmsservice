@@ -1,9 +1,9 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Onesms\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Repositories\InitRepository;
+use Onesms\Service\Repositories\InitRepository;
 
 class HomeController extends Controller
 {

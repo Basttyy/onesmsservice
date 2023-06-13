@@ -1,10 +1,10 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Onesms\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\LicenseRequest;
-use Mint\Service\Repositories\LicenseRepository;
+use Onesms\Service\Requests\LicenseRequest;
+use Onesms\Service\Repositories\LicenseRepository;
 
 class LicenseController extends Controller
 {

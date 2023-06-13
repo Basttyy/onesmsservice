@@ -1,10 +1,10 @@
 <?php
-namespace Mint\Service\Controllers;
+namespace Onesms\Service\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Mint\Service\Requests\InstallRequest;
-use Mint\Service\Repositories\InstallRepository;
+use Onesms\Service\Requests\InstallRequest;
+use Onesms\Service\Repositories\InstallRepository;
 
 class InstallController extends Controller
 {
